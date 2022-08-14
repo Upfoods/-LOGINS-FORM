@@ -6,105 +6,125 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> UPFOOD PROJECT</title>
+    <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.css">
 </head>
 <body>
     <div class="flex-container">
-        <div class="developer"> 
-                <img src="Upfood.jpeg" alt="" width="220px" height="200px">
+        <div class="first-container"> 
 
-            <h3 class="fast">
-                Fast and Convienient Food Ordering 
-            </h3>    
-            
+            <!------The Login Page------>
+            <div class="image1">
+                <img src=".//Images/Logo2.jpg" alt="">
+            </div>
+                    
             <h3 class="head"> 
                 Log In To Your Account
             </h3>
             
-            <div class="wrap"> 
+            <div class="wrap">
                 <form>
-                    <input type="email" placeholder="Email">
-                    <input type="password" placeholder="Password">
+                    <div class="email-container">
+                        <input type="email" placeholder="Email" class="space">
+                    </div>
+
+                    <div class="password-container">
+                        <input type="password" placeholder="Password" class="space">
+                    </div>
                 </form>
             </div>
 
-            <h4 class="head"> Or Continue With </h4>
+            <h1 class="para"> Or Continue With </h1>
             
-            <div class="google">
-                    <h3 class="text">Google</h3>
+            <div class="wrap">
+                <button id="google"><i class="fa-brands fa-google" id="color"></i> Google</button>
             </div>
-
-            <p class="link"> Forgot Your password</p>
-
-            <button class="login"> 
-                Login 
-            </button>
-        </div>
             
-        <div class="second">
-            <div class="container">
-                <div class="image"> 
-                <img src="Upfood.jpeg" alt="" width="220px" height="200px">
+            <a href="#" class="link">Forgot Your password</a>
+
+            <button class="login"> Login</button>
+
+            <a href="#" class="link-2">No account? Sign Up</a>
+        </div>
+
+        <!------The Sign up Page------>
+        <div class="second-container">
+                <div class="image2"> 
+                    <img src=".//Images/Logo2.jpg" alt="">
                 </div>
                 
-                 <h3 class="fast">
-                    Fast and Convienient Food Ordering 
-                </h3> 
-                
-                <h3 class="sign">
+                <h3 class="head">
                     Sign Up For Free
                 </h3>
 
-                <div class="google">
-                  <h3 class="text">Google</h3>  
+                <div class="wrap">
+                    <button id="google"><i class="fa-brands fa-google" id="color"></i> Google</button>
                 </div>
                 
-                <h4 class="head"> Or Continue With</h4>
+                <h1 class="para"> Or Continue With </h1>
 
                 <div class="wrap">
-                    <form> 
-                        <input type="text" placeholder="Your Name">
-                        <input type="email" placeholder="Email">
-                        <input type="password" placeholder="Password">
+                    <form>
+                        <div class="name-container">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" placeholder="Your Name" class="space">
+                        </div>
+
+                        <div class="email-container">
+                            <i class="fa-solid fa-envelope"></i><input type="email" placeholder="Email" class="space">
+                        </div>
+    
+                        <div class="password-container">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" placeholder="Password" class="space">
+                        </div>
+                    </form>
+                </div>
+    
+                <div class="normal">
+                    <form>
+                        <div class="okay">
+                            <input type="checkbox"> <p>keep me signed in</p>
+                            <input type="checkbox"> <p>email me about special pricing</p>
+                        </div>
                     </form>
                 </div>
 
-                <form class="check">
-                    <input type="checkbox"> UPFOOD 
-                    <input type="checkbox"> DEVELOPERS
-                </form>
-                
                 <button class="create">
                     Create Account
                 </button>
 
-                <p class="do">
-                    Do you have an account
-                </p>
-            </div>
+                <a href="#" class="link-2">already have an account? Log In</a>
         </div>
 
-        <div class="third">
-            <div class="bio-data"> 
-                <h2 class="fill">
-                    <img src="Upfood.jpeg" alt="" width="220px" height="200px"> <br>
-                    Fill in your bio to get <br>started 
-                </h2>
-                <h4 class="data"> 
-                    This data will be displayed in your account <br> probe for security 
-                </h4>
-                
-                <center> 
-                    <form class="form-wrapper"> 
-                        <input type="text" placeholder="First Name">
-                        <input type="text" placeholder="Last Name">
-                        <input type="text" placeholder="Mobile number">
-                    </form>
-                </center>
+           <!---The Bio-data Page--->
+        <div class="third-container">
+            <h2 class="fill">
+                Fill in your bio to get <br>started 
+            </h2>
+
+            <h4 class="data"> 
+                This data will be displayed in your account <br> probe for security 
+            </h4>
+
+            <div class="wrap">
+                <form>
+                    <div class="email-container">
+                        <input type="email" placeholder="First Name" class="space">
+                    </div>
+
+                    <div class="password-container">
+                        <input type="password" placeholder="Last Name" class="space">
+                    </div>
+
+                    <div class="number-container">
+                        <input type="text" placeholder="Mobile Number" class="space">
+                    </div>
+                </form>
+            </div>
 
                 <button class="next"> 
                     Next
                 </button>
-            </div>
         </div>
     </div>
 </body>
