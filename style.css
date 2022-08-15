@@ -149,11 +149,89 @@ input {
     padding-top: 15px;
 }
 
-.okay {
+.name-container {
     display: flex;
-    justify-content: left;
-    flex-direction: column;
-    vertical-align: top;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.name-container label i{
+    padding: 20px 15px;
+    color: #53E88B;
+}
+
+.name-container input{
+    padding: 20px 0px;
+    outline: none;
+    border: none;
+}
+
+.email-container-2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.email-container-2 label i {
+    padding: 20px 15px;
+    color: #53E88B;
+}
+
+.email-container-2 input {
+    padding: 15px 5px;
+    outline: none;
+    border: none;
+}
+
+.password-container-2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.password-container-2 label i {
+    padding: 20px 15px;
+    color: #53E88B;
+}
+
+.password-container-2 input {
+    padding: 15px 5px;
+    outline: none;
+    border: none;
+}
+
+.checked-signed{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checked-signed input{
+    width: 5%;
+}
+
+.checked-signed p{
+    width: 90%;
+    text-transform: capitalize;
+}
+
+.checked-email{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checked-email input{
+    width: 5%;
+}
+
+.checked-email p{
+    width: 90%;
     text-transform: capitalize;
 }
 
@@ -168,16 +246,15 @@ input {
     padding: 15px;
     border: none;
     width: 150px;
-    margin-top: 20px;
 }
 
 .create:hover {
     background-color: white;
-    color: green;
+    color: #15BE77;
 }
 
 .do {
-    color: #09bb56;
+    color: #15BE77;
     text-decoration: underline;
 }
 
@@ -190,32 +267,40 @@ input {
     width: 335px;
     height: 100vh;
     flex-direction: column;
-
 }
 
-.bio-data {
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    flex-direction: column;
-    margin-left: 1px;
+.fa-angle-left {
+    background-color: #c4f3d6;
+    color: #15BE77;
+    border-radius: 7px;
+    padding: 5px 8px;
+    margin-left: -150px;
 }
 
 .fill {
-    margin-left: 0px;
-    font-size: 20px ;
+    font-family: 'DM Sans';
+    font-style: Bold;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: -73px;
+    margin-top: 15px;
+    color: #09051C;
+    line-height: 32.76px;
 }
 
 .data {
-   font-size: 12px;
-   margin-left: 50px;
-   margin-top: 0px;
-   margin-bottom: 40px;
+    font-family: 'Dm Sans';
+    font-weight: 400;
+   color: #000000;
+   margin-left: -65px;
+   margin-top: 10px;
 }
 
 .number-container {
-    padding-top: 15px;
+    margin-top: 15px;
 }
+
 .next {
     font-family: 'DM Sans';
     font-style: bold;

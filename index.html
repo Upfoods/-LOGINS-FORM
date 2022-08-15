@@ -24,7 +24,7 @@
             <div class="wrap">
                 <form>
                     <div class="email-container">
-                        <input type="email" placeholder="Email" class="space">
+                        <input id="input" type="email" placeholder="Email" class="space">
                     </div>
 
                     <div class="password-container">
@@ -48,63 +48,71 @@
 
         <!------The Sign up Page------>
         <div class="second-container">
-                <div class="image2"> 
-                    <img src=".//Images/Logo2.jpg" alt="">
-                </div>
+            <div class="image2"> 
+                <img src=".//Images/Logo2.jpg" alt="">
+            </div>
                 
-                <h3 class="head">
-                    Sign Up For Free
-                </h3>
+            <h3 class="head">Sign Up For Free</h3>
 
-                <div class="wrap">
-                    <button id="google"><i class="fa-brands fa-google" id="color"></i> Google</button>
-                </div>
+            <div class="wrap">
+                <button id="google"><i class="fa-brands fa-google" id="color"></i> Google</button>
+            </div>
                 
-                <h1 class="para"> Or Continue With </h1>
+            <h1 class="para"> Or Continue With </h1>
 
-                <div class="wrap">
-                    <form>
-                        <div class="name-container">
-                            <i class="fa-solid fa-user"></i>
-                            <input type="text" placeholder="Your Name" class="space">
-                        </div>
+            <div class="wrap">
+                <form>
+                    <div class="name-container">
+                        <label for="name">
+                          <i class="fa-solid fa-user"></i>
+                        </label>
+                        <input type="text" placeholder="Your Name" class="space" id="name">
+                    </div>
 
-                        <div class="email-container">
-                            <i class="fa-solid fa-envelope"></i><input type="email" placeholder="Email" class="space">
-                        </div>
+                    <div class="email-container-2">
+                        <label for="name">
+                            <i class="fa-solid fa-envelope"></i>
+                        </label>
+                       <input type="email" placeholder="Email" class="space">
+                    </div>
     
-                        <div class="password-container">
+                    <div class="password-container-2">
+                        <label for="name">
                             <i class="fa-solid fa-lock"></i>
-                            <input type="password" placeholder="Password" class="space">
-                        </div>
-                    </form>
-                </div>
+                        </label>
+                        <input type="password" placeholder="Password" class="space">
+                    </div>
+
+                    <div class="checked-signed">
+                        <input type="checkbox"> 
+                        <p>keep me signed in</p>
+                    </div>
+
+                    <div class="checked-email">
+                        <input type="checkbox"> <p>email me about special pricing</p>  
+                    </div>
+                </form>
+                
+            </div>
     
-                <div class="normal">
-                    <form>
-                        <div class="okay">
-                            <input type="checkbox"> <p>keep me signed in</p>
-                            <input type="checkbox"> <p>email me about special pricing</p>
-                        </div>
-                    </form>
-                </div>
+            <button class="create">Create Account</button>
 
-                <button class="create">
-                    Create Account
-                </button>
-
-                <a href="#" class="link-2">already have an account? Log In</a>
+            <a href="#" class="link-2">Already have an account? Log In</a>
         </div>
 
            <!---The Bio-data Page--->
         <div class="third-container">
+            <div class="image3">
+               <a href="#"><i class="fa-solid fa-angle-left"></i></a>
+            </div>
+            
             <h2 class="fill">
                 Fill in your bio to get <br>started 
             </h2>
 
-            <h4 class="data"> 
+            <h5 class="data"> 
                 This data will be displayed in your account <br> probe for security 
-            </h4>
+            </h5>
 
             <div class="wrap">
                 <form>
@@ -122,9 +130,8 @@
                 </form>
             </div>
 
-                <button class="next"> 
-                    Next
-                </button>
+            <button class="next">Next</button>
+            
         </div>
     </div>
 </body>
